@@ -15,11 +15,12 @@ object Main {
     Math.sqrt(sumOfDiff / count)
   }
 
-  def letterFrequencyRanking(corpus: String): String = ???
+  def letterFrequencyRanking(corpus: String): String =
+    LetterFrequencyRanking(corpus)
 
   def romanji(katakana: String): String = ???
 
-  def gray(bits: Int): List[String] = ???
+  def gray(bits: Int): List[String] = GreyCode.nBitCode(bits: Int)
 }
 
 object Katakana {
